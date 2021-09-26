@@ -1,0 +1,41 @@
+/*----- CHAT
+-----------------------------------------------------------------*/
+.div_chat_feed {
+    background: rgba(11,26,31,.7);
+    overflow: hidden;
+    max-height: 400px!important;
+    width: 900px!important;
+}
+
+.div_chat_log_feed {
+    background: rgba(11,26,31,.7);
+    overflow: auto;
+    max-height: 400px;
+    width: 900px!important;
+}
+
+.chat_message {
+    margin: 4px 4px 4px 10px;
+    line-height:1.3;
+    font-size: 16px;
+}
+
+.chat_message_body {
+    margin: 0px 0px 0px 0px;
+    width: 900px;
+    word-wrap: break-word;
+}
+
+.chat_input {
+    background: rgba(11,26,31,.7)!important;
+    border: 1px solid #666;
+    font-size: 16px!important;
+    width: 900px!important;
+}
+
+.input_chat_text, input[type="text"] {
+    background: rgba(11,26,31,.7)!important;
+    width: 850px!important;
+    margin:0px;
+    font-size: 16px!important;
+}

@@ -1,0 +1,25 @@
+{
+  "context": "client",
+  "identifier": "com.pa.muddy.simple-chat",
+  "display_name": "Simple Chat",
+  "description": "Simple chat enhancement for high resolution displays",
+  "author": "muddy",
+  "version": "0.1",
+  "build": "105067",
+  "date": "2020-21-10",
+  "signature": "not yet implemented",
+  "forum": "",
+  "priority": 100,
+  "icon": "",
+  "category": ["ui"],
+  "scenes":{
+    "live_game": [
+      "coui://ui/mods/com.pa.muddy.simple-chat/move_chat.css",
+      "coui://ui/mods/com.pa.muddy.simple-chat/live_game.js"
+    ],
+    "live_game_chat": [
+      "coui://ui/mods/com.pa.muddy.simple-chat/live_game_chat.css",
+      "coui://ui/mods/com.pa.muddy.simple-chat/live_game_chat.js"
+    ]
+    }
+}
